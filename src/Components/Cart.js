@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Row } from 'react-bootstrap';
 import Items from './Item/Items';
+import './Carts.css';
 
 
 const Cart = () => {
@@ -12,7 +13,7 @@ const Cart = () => {
 
     },[])
     return (
-         <div className="">
+         <div className="cart-size">
             <Row xs={1} md={3} className="g-4">
   
                 {

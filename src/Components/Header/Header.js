@@ -6,14 +6,15 @@ import { Container, Nav, Navbar} from 'react-bootstrap';
 const Header = () => {
     return (
         <div className="navigation-bar"> 
-        <h1> <span className="text-warning">Softare Designar</span> in bangladesh </h1>
-        <Navbar bg="primary" variant="dark">
+        <h1> <span className="text-warning">Softare Designar</span> in the World</h1>
+        <Navbar bg="black" variant="dark">
         <Container>
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+        <Nav.Link  to=" /">Home</Nav.Link>
         <Nav className="me-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#features">Features</Nav.Link>
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
+          
+          <Nav.Link to="/about">About </Nav.Link>
+          <Nav.Link to="/services">Services</Nav.Link>
+          <Nav.Link to="/documents">Documents</Nav.Link>
         </Nav>
         </Container>
       </Navbar>

@@ -9,7 +9,7 @@ const Items = (props) => {
     return (
         <div>
     <Col>
-      <Card>
+      <Card className="card-radius">
         <Card.Img className="img-size" variant="top" src={img} />
         <Card.Body className="cards-size">
           <Card.Title>Name:{name}</Card.Title>
@@ -18,6 +18,7 @@ const Items = (props) => {
           <Card.Text><span className="dark">Discription:</span>
             This is one of the best suceess person in the word .
           </Card.Text>
+          <button>Detail Visit</button>
         </Card.Body>
       </Card>
     </Col>
