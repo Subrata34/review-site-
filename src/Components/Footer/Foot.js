@@ -4,14 +4,16 @@ import './Foot.css';
 
 const Foot = () => {
     return (
-        <div className="bg-warning ">
+        <div className="bg-dark text-font">
         
        <Row>
          <Col>
-         <h2>This is world wide setisfraction </h2>
+         <h4>Company Address</h4>
+         <h5><i class="fas fa-map-marker-alt"></i>Ashulia,Dhaka</h5>
+         <h3><i class="fas fa-phone"></i>+88015698888525</h3>
          </Col>
          <Col>
-         <ul className="li-decoration">
+         <ul >
              <li>coustomer number</li>
              <li> Help service </li>
              <li>Review</li>
@@ -19,10 +21,13 @@ const Foot = () => {
              <li>About difference comands</li>
          </ul>
          </Col>
-         <Col>
-         <h1>Company Address</h1>
-         <h3>Ashulia,Dhaka</h3>
-         <h3>Office Phone :+88015698888525</h3>
+         <Col className="text-center" >
+             <div className="footer-text"> 
+            <h2> 
+              <i  class="fab fa-facebook-f"></i>
+              <i class="fab fa-instagram"></i>
+              <i  class="fab fa-youtube"></i></h2>
+            </div>
          </Col>
        </Row>
         </div>

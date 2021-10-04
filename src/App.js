@@ -9,7 +9,10 @@ function App() {
     <div className="App">
      <Header></Header>
      <Cart></Cart>
-     <Foot></Foot>
+     <footer>
+       <Foot></Foot>
+     </footer>
+     
     </div>
   );
 }

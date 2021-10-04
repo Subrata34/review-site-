@@ -1,4 +1,18 @@
 .li-decoration{
-    color :black;
-    direction: none;
+    color :rgb(148, 120, 120);
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+}
+.text-font{
+    color:white;
+}
+.footer-text{
+    margin-top: 60px;
+    
+}
+.footer-margin{
+    margin-right: 5px;
+
 }
