@@ -27,7 +27,7 @@ function App() {
            <Course></Course>
          </Route>
          
-         <NotFound></NotFound>
+         
        </Switch>
      </Router>
     </div>
