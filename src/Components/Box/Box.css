@@ -1,7 +1,10 @@
 .course-container{
- 
+   padding: 10px;
+   height :800px;
+   
 }
 .img-size{
-    width:80%;
+    
     text-align: center;
+    padding:20px;
 }

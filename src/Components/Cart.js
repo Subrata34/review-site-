@@ -18,9 +18,8 @@ const Cart = () => {
 
         
          <div className="cart-size">
-             <div className ="bg-success">
-            <input  type="search" placeholder="input inter name" />
-            <button className="bg-danger">Search </button>
+             <div className ="bg-warning ">
+            <h1>Our Honerable Cheif Ghest </h1>
         </div>
             <Row xs={1} md={3} className="g-4">
   

@@ -17,7 +17,7 @@ const Course = () => {
         <div>
             <Header></Header> 
         <div>
-        <Row xs={1} md={2} className="g-4">
+        <Row xs={1} md={2} className="g-2">
           { 
             count.map(course=><Box 
                 courses={course}>

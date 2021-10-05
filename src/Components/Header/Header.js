@@ -14,11 +14,11 @@ const Header = () => {
                     <div className="d-flex align-items-end ">
                        <Link to="/home" className="items"> 
                        {""}
-                       <li >Home</li></Link>
+                       <li >  Home </li></Link>
                        <Link to="/about" className="items"> 
                        {""}
-                       <li >Service</li></Link>
-                       <Link to ="/" className="items">{""} <li >About </li></Link>
+                       <li >About </li></Link>
+                       <Link to ="/" className="items">{""} <li >Service </li></Link>
                         <Link to="/course" className="items">
                             {""}
                             <li>Course</li></Link>
