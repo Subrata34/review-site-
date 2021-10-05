@@ -12,7 +12,7 @@ const Services = () => {
             .then(data=>setCourses(data))
     },[])
     return (
-        <div className="container">
+        <div>
             <Header></Header>
                <Cart></Cart>
                 <h3 className="text-center my-3">

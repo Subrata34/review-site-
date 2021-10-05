@@ -4,7 +4,7 @@ import { BrowserRouter as Router,Switch,Route } from 'react-router-dom';
 import Home from './Components/Home';
 import About from './Components/About/About';
 import Course from './Components/Course/Course';
-
+import NotFound from './Components/NotFound/NotFound';
 import Service from './Components/Service/Service';
 function App() {
   return (
@@ -13,7 +13,9 @@ function App() {
      <h1>Programming world  in Bangladesh</h1>
      <Router>
        <Switch>
-        
+        <Route exact path="/">
+        <Home></Home>
+        </Route>
          <Route path='/home'>
            <Home></Home>
          </Route>
@@ -25,6 +27,9 @@ function App() {
          </Route>
          <Route path='/course'>
            <Course></Course>
+         </Route>
+         <Route path="*">
+            <NotFound></NotFound>
          </Route>
          
          
