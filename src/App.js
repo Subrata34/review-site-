@@ -4,7 +4,7 @@ import { BrowserRouter as Router,Switch,Route } from 'react-router-dom';
 import Home from './Components/Home';
 import About from './Components/About/About';
 import Course from './Components/Course/Course';
-import NotFound from './Components/NotFound/NotFound';
+
 import Service from './Components/Service/Service';
 function App() {
   return (
