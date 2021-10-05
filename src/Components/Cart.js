@@ -6,14 +6,22 @@ import './Carts.css';
 
 const Cart = () => {
     const[Person,setPerson]=useState([])
+    
     useEffect(()=>{
         fetch(`./api.json`)
         .then(res=>res.json())
         .then(data=>setPerson(data))
 
     },[])
+   
     return (
+
+        
          <div className="cart-size">
+             <div className ="bg-success">
+            <input  type="search" placeholder="input inter name" />
+            <button className="bg-danger">Search </button>
+        </div>
             <Row xs={1} md={3} className="g-4">
   
                 {

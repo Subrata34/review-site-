@@ -1,10 +1,10 @@
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
-import './Items.css';
+import './Items/Items.css';
 
 const Items = (props) => {
     const{img,name,Occupation,nationality}=props.person;
-    console.log(props.person)
+    
     
     return (
         <div>
@@ -18,7 +18,7 @@ const Items = (props) => {
           <Card.Text><span className="dark">Discription:</span>
             This is one of the best suceess person in the word .
           </Card.Text>
-          <button>Detail Visit</button>
+          <button className="btn btn-success">Detail Visit</button>
         </Card.Body>
       </Card>
     </Col>
