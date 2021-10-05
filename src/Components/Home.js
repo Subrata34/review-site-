@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Course from './Course/Course';
-import Footer from './Footer/Footer';
+
 
 
 const Home = () => {
@@ -9,7 +9,7 @@ const Home = () => {
         <div>
             
             <Course></Course>
-            <Footer></Footer>
+            
         </div>
     );
 };
