@@ -1,22 +1,25 @@
 import React, { useEffect, useState } from 'react';
-import Footer from '../../Footer/Foter';
+import Footer from '../Footer/Footer';
 import Course from '../Course/Course';
 import Header from '../Header/Header';
-// this cod is more Details of Course
-// Use hooks to Load data form Sarver
-// import { Container } from 'react-bootstrap';
+import Cart from '../Cart';
+
 const Services = () => {
     const [courses,setCourses]=useState([]);
     useEffect(()=>{
-            fetch('datas.JSON')
+            fetch('fakdedata.json')
             .then(res=>res.json())
             .then(data=>setCourses(data))
     },[])
     return (
         <div className="container">
             <Header></Header>
-
-                <h3 className="text-center my-3">Education refers to the discipline that is concerned with methods of teaching </h3>
+               <Cart></Cart>
+                <h3 className="text-center my-3">
+                    Education refers to the discipline that is
+                     concerned with methods of teaching </h3>
+                     <h1>this is good service in this world </h1>
+                    
             <div className="  row">
                {  
                     courses.map(course=><Course

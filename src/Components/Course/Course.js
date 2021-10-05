@@ -14,8 +14,8 @@ const Course = () => {
     },[])
     
     return (
-        <div>
-            <Header></Header> 
+        <div>  
+          <Header></Header>
         <div>
         <Row xs={1} md={2} className="g-2">
           { 
@@ -28,6 +28,7 @@ const Course = () => {
         </div>
         <Footer></Footer>
       </div>
+
     );
 };
 
